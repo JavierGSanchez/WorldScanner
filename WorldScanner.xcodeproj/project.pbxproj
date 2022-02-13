@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		50B756A527B826E800C5680B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B756A427B826E800C5680B /* AppDelegate.swift */; };
-		50B756A727B826E800C5680B /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 50B756A627B826E800C5680B /* art.scnassets */; };
 		50B756A927B826E800C5680B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B756A827B826E800C5680B /* GameViewController.swift */; };
 		50B756AC27B826E800C5680B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B756AA27B826E800C5680B /* Main.storyboard */; };
 		50B756AE27B826ED00C5680B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50B756AD27B826ED00C5680B /* Assets.xcassets */; };
@@ -16,6 +15,7 @@
 		50B756BB27B826ED00C5680B /* WorldScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B756BA27B826ED00C5680B /* WorldScannerTests.swift */; };
 		50B756C527B826ED00C5680B /* WorldScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B756C427B826ED00C5680B /* WorldScannerUITests.swift */; };
 		50B756C727B826ED00C5680B /* WorldScannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B756C627B826ED00C5680B /* WorldScannerUITestsLaunchTests.swift */; };
+		50B756D427B889F400C5680B /* cats.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 50B756D327B889F400C5680B /* cats.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 /* Begin PBXFileReference section */
 		50B756A127B826E800C5680B /* WorldScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B756A427B826E800C5680B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		50B756A627B826E800C5680B /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		50B756A827B826E800C5680B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		50B756AB27B826E800C5680B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50B756AD27B826ED00C5680B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -48,6 +47,7 @@
 		50B756C027B826ED00C5680B /* WorldScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B756C427B826ED00C5680B /* WorldScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldScannerUITests.swift; sourceTree = "<group>"; };
 		50B756C627B826ED00C5680B /* WorldScannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldScannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		50B756D327B889F400C5680B /* cats.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = cats.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +99,11 @@
 			isa = PBXGroup;
 			children = (
 				50B756A427B826E800C5680B /* AppDelegate.swift */,
-				50B756A627B826E800C5680B /* art.scnassets */,
 				50B756A827B826E800C5680B /* GameViewController.swift */,
 				50B756AA27B826E800C5680B /* Main.storyboard */,
 				50B756AD27B826ED00C5680B /* Assets.xcassets */,
 				50B756AF27B826ED00C5680B /* LaunchScreen.storyboard */,
+				50B756D327B889F400C5680B /* cats.scnassets */,
 			);
 			path = WorldScanner;
 			sourceTree = "<group>";
@@ -229,9 +229,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50B756A727B826E800C5680B /* art.scnassets in Resources */,
 				50B756B127B826ED00C5680B /* LaunchScreen.storyboard in Resources */,
 				50B756AE27B826ED00C5680B /* Assets.xcassets in Resources */,
+				50B756D427B889F400C5680B /* cats.scnassets in Resources */,
 				50B756AC27B826E800C5680B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

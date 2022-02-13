@@ -2,7 +2,7 @@
 //  GameViewController.swift
 //  WorldScanner
 //
-//  Created by Max on 2/12/22.
+//  Created by Javier on 2/12/22.
 //
 
 import UIKit
@@ -15,22 +15,15 @@ class GameViewController: UIViewController {
         super.viewDidLoad()
         
         // create a new scene
-        let scene = SCNScene(named: "art.scnassets/ship.scn")!
-        
-        // create and add a camera to the scene
-        let cameraNode = SCNNode()
-        cameraNode.camera = SCNCamera()
-        scene.rootNode.addChildNode(cameraNode)
-        
-        // place the camera
-        cameraNode.position = SCNVector3(x: 0, y: 0, z: 15)
+        let scene = SCNScene(named: "cats.scnassets/715251-cat.scn")!
         
         // create and add a light to the scene
         let lightNode = SCNNode()
         lightNode.light = SCNLight()
         lightNode.light!.type = .omni
-        lightNode.position = SCNVector3(x: 0, y: 10, z: 10)
+        lightNode.position = SCNVector3(x: 20, y: 45, z: 30)
         scene.rootNode.addChildNode(lightNode)
+        
         
         // create and add an ambient light to the scene
         let ambientLightNode = SCNNode()
@@ -40,10 +33,10 @@ class GameViewController: UIViewController {
         scene.rootNode.addChildNode(ambientLightNode)
         
         // retrieve the ship node
-        let ship = scene.rootNode.childNode(withName: "ship", recursively: true)!
+        let ship = scene.rootNode.childNode(withName: "715251-cat", recursively: true)!
         
         // animate the 3d object
-        ship.runAction(SCNAction.repeatForever(SCNAction.rotateBy(x: 0, y: 2, z: 0, duration: 1)))
+        ship.runAction(SCNAction.repeatForever(SCNAction.rotateBy(x: 0, y: 0.25, z: 0, duration: 1)))
         
         // retrieve the SCNView
         let scnView = self.view as! SCNView
