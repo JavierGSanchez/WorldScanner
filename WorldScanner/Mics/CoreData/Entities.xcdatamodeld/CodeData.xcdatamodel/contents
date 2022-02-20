@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="20G415" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Cat" representedClassName="Cat" syncable="YES" codeGenerationType="class">
+        <attribute name="breed" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="modelName" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="photoData" optional="YES" attributeType="Binary"/>
+        <attribute name="textureData" optional="YES" attributeType="Binary"/>
+        <attribute name="uuid" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+    <elements>
+        <element name="Cat" positionX="-63" positionY="-18" width="128" height="134"/>
+    </elements>
+</model>

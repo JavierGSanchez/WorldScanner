@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Mike</string>
+		<key>image</key>
+		<string>basic_cat_thumbnail.jpg</string>
+		<key>scene</key>
+		<string>715251-cat.scn</string>
+		<key>texture</key>
+		<string>715251-cat-diffuse.jpg</string>
+	</dict>
+</array>
+</plist>

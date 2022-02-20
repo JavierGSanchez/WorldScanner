@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  WorldScanner
 //
-//  Created by Max on 2/12/22.
+//  Created by Javier on 2/12/22.
 //
 
 import UIKit

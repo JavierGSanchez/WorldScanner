@@ -10,6 +10,8 @@ import QuartzCore
 import SceneKit
 
 class GameViewController: UIViewController {
+    
+    var selectedCat: ExploreItem?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -109,5 +111,17 @@ class GameViewController: UIViewController {
             return .all
         }
     }
+}
 
+// MARK: Private Extension
+private extension GameViewController{
+    
+    func initialize() {
+        print("initializing the GameViewController")
+        if selectedCat != nil, let myCat = selectedCat{
+            print("slectedCat.name: " + myCat.name!)
+        }else{
+            print("selectedCat is nil")
+        }
+    }
 }
