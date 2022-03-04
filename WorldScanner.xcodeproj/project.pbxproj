@@ -27,6 +27,7 @@
 		50B756EF27BB22EC00C5680B /* ExploreData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50B756EE27BB22EC00C5680B /* ExploreData.plist */; };
 		50B756F127BC29ED00C5680B /* Segue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B756F027BC29ED00C5680B /* Segue.swift */; };
 		50B756F327C0158600C5680B /* ExploreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B756F227C0158600C5680B /* ExploreCell.swift */; };
+		50B756F627CBEADB00C5680B /* PhotoSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B756F527CBEADA00C5680B /* PhotoSelectorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,8 @@
 		50B756EE27BB22EC00C5680B /* ExploreData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ExploreData.plist; sourceTree = "<group>"; };
 		50B756F027BC29ED00C5680B /* Segue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segue.swift; sourceTree = "<group>"; };
 		50B756F227C0158600C5680B /* ExploreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreCell.swift; sourceTree = "<group>"; };
+		50B756F527CBEADA00C5680B /* PhotoSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorViewController.swift; sourceTree = "<group>"; };
+		50B756F927CD551E00C5680B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 		50B756A327B826E800C5680B /* WorldScanner */ = {
 			isa = PBXGroup;
 			children = (
+				50B756F927CD551E00C5680B /* Info.plist */,
+				50B756F427CBEAA900C5680B /* PhotoSelector */,
 				50B756DB27B9F6F300C5680B /* Mics */,
 				50B756D827B9F23000C5680B /* Explore */,
 				50B756D527B9F05300C5680B /* Editor */,
@@ -220,6 +225,14 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		50B756F427CBEAA900C5680B /* PhotoSelector */ = {
+			isa = PBXGroup;
+			children = (
+				50B756F527CBEADA00C5680B /* PhotoSelectorViewController.swift */,
+			);
+			path = PhotoSelector;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,6 +376,7 @@
 				50B756E927BAE51900C5680B /* ExploreItem.swift in Sources */,
 				50B756A927B826E800C5680B /* GameViewController.swift in Sources */,
 				50B756D727B9F0C400C5680B /* EditorViewController.swift in Sources */,
+				50B756F627CBEADB00C5680B /* PhotoSelectorViewController.swift in Sources */,
 				50B756A527B826E800C5680B /* AppDelegate.swift in Sources */,
 				50B756DA27B9F25400C5680B /* ExploreViewController.swift in Sources */,
 				50B756DE27B9F70E00C5680B /* Entities.xcdatamodeld in Sources */,
@@ -547,6 +561,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z795YV2KZA;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WorldScanner/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -575,6 +590,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z795YV2KZA;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WorldScanner/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

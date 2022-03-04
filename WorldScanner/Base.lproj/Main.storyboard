@@ -153,6 +153,11 @@
                                 <segue destination="u97-VS-BZX" kind="unwind" unwindAction="unwindGameDoneWithSegue:" id="yr0-dj-x26"/>
                             </connections>
                         </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Regenerate" id="Gs4-fe-CAo">
+                            <connections>
+                                <action selector="onPhotoTapped:" destination="BV1-FR-VrT" id="Bhf-R7-JMG"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>

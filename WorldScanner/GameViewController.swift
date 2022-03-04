@@ -9,7 +9,7 @@ import UIKit
 import QuartzCore
 import SceneKit
 
-class GameViewController: UIViewController {
+class GameViewController: PhotoSelectorViewController {
     
     var selectedCat: ExploreItem?
 
@@ -124,4 +124,8 @@ private extension GameViewController{
             print("selectedCat is nil")
         }
     }
+    @IBAction func onPhotoTapped(_ sender: Any) {
+       checkSource()
+    }
+    
 }
